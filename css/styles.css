@@ -1,0 +1,598 @@
+@font-face {
+    font-family: 'Marta Bold';
+    src: url(../fonts/Marta_Bold.otf);
+}
+@font-face{
+    font-family: 'Marta';
+    src: url(../fonts/Marta.otf);
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'OpenSans SemiBold';
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face{
+    font-family: 'Lora Bold';
+    src: url(../fonts/Lora-Bold.ttf);
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+.main-header{
+    margin-top: 29px;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+.main-header .logo{
+    background-image: url(../images/sprite.png);
+    background-position: 0px 0px;
+    float:left;
+    display: block;
+    width: 144px;
+    height: 54px;
+    margin-top: 28px;
+}
+.main-header ul li{
+    list-style-type: none;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.main-header nav{
+    overflow: hidden;
+}
+.main-header nav a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans SemiBold';
+    color: white;
+    text-decoration: none;
+}
+
+.sliderHolder{
+    text-align: center;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/background`1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.sliderHolder h1{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Marta Bold';
+}
+.sliderHolder .btn-warning{
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    font-size: 18px;
+    margin-top: 80px;
+    font-family:'OpenSans';
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display:inline-block;
+}
+.sliderHolder #slider{
+    align-self:center;
+}
+#bgDom{
+    background-image: url(../images/zaBgDom.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px 0px 155px 0px;
+    background-position: left bottom;
+}
+#bgDom h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+#bgDom h3{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Lora Bold';
+    text-transform: uppercase;
+    color: rgb(34, 34, 34);
+}
+#bgDom p{
+    font-size: 14px;
+    font-family: 'OpenSans';
+    color: rgb(119, 119, 119);
+    text-align: left;
+}
+#bgDom .yellowLine{
+    margin-bottom:87px;
+}
+#bgDom .item .icon {
+    display: block;
+    width: 74px;
+    height: 73px;
+    background-image: url(../images/sprite.png);
+}
+#bgDom .item .icon.icon-viziq {
+    background-position: -165px 0px;
+}
+#bgDom .item .icon.icon-misiq{
+    background-position: -239px 0px;
+}
+#bgDom .item .icon.icon-celi{
+    background-position: -313px 0px;
+}
+
+#team{
+    background-image: url(../images/Team.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 130px 0px 133px 0px;
+}
+#team h3{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#team .icon-box{
+    text-decoration: none;
+}
+#team h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Marta';
+}
+#team .yellowLine{
+    margin-bottom: 61px;
+}
+#team .icon{
+    display: block;
+    width: 68px;
+    height: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/sprite.png);
+}
+#team .icon.icon-suvet{
+    background-position: -387px 0px;
+}
+#team .icon.icon-members{
+    background-position: -455px 0px;
+}
+#bosses{
+    padding: 121px 0px 100px 0px;
+    text-align: center;
+}
+#bosses .yellowLine{
+    margin-bottom: 67px;
+}
+#bosses h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+#bosses .img-circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bosses .icon {
+    background-image: url(../images/sprite.png);
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 108px;
+}
+#bosses .icon-fb{
+    background-position: -172px -74px;
+}
+#bosses .icon-twitter{
+    background-position: -136px -74px;
+}
+#bosses .icon-pinterest{
+    background-position: -209px -74px;
+}
+#bosses .icon-googlePlus{
+    background-position: -245px -74px;
+}
+#bosses h4{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
+#bosses p{
+    font-family: 'Marta Bold';
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+}
+#gallery{
+    background-image: url(../images/galery.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 120px 0px 120px 0px;
+}
+#gallery h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#gallery h3{
+    font-size: 18px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#gallery .yellowLine{
+    margin-bottom: 78px;
+}
+#gallery .icon{
+    display:block;
+    background-image: url(../images/sprite.png);
+    width: 68px;
+    height: 67px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gallery .icon.icon-camera{
+    background-position: 0px -73px;
+}
+#gallery .icon.icon-recorder{
+    background-position: -68px -73px;
+}
+#gallery .icon-box{
+    text-decoration: none;
+}
+#members{
+    background-image: url(../images/members.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 110px 0px 147px 0px;
+    text-align: center;
+}
+#members h3{
+    font-size: 30px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    text-align: center;
+}
+#members .yellowLine{
+    margin-bottom: 72px;
+}
+#members .img-circle{
+    margin-left: 18px;
+}
+#initiatives{
+    background-image: url(../images/houses.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px 160px 0px;
+    background-position: right bottom;
+}
+#initiatives h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#initiatives h3{
+    font-size: 18px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+#initiatives p{
+    font-size: 14px;
+    font-family: 'OpenSans';
+    color: rgb(119, 119, 119);
+}
+#initiatives .yellowLine{
+    margin-bottom: 77px;
+}
+#initiatives .icon{
+    display:block;
+    width: 74px;
+    height: 73px;
+    background-image: url(../images/sprite.png);
+}
+#initiatives .icon.icon-house{
+    background-position: -523px 0px;
+}
+#initiatives .icon.icon-paper{
+    background-position: -597px 0px;
+}
+#initiatives .icon.icon-blok{
+    background-position: -671px 0px;
+}
+#pictures{
+    padding: 120px 0px 140px 0px;
+}
+#pictures .yellowLine{
+    margin-bottom: 86px;
+}
+#pictures h1{
+    font-size: 40px;
+    font-family: 'Marta Bold';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#pictures p{
+    text-align: center;
+}
+#pictures .pictures-compleated{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+#pictures .picture-box{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(247, 247, 247);
+    margin-bottom: 39px;
+}
+#partners{
+    background-image: url(../images/partners.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 70px 0px 69px 0px;
+    text-align: center;
+}
+#partners h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#partners .partners_icon{
+    margin-left: 41px;
+    margin-top: 69px;
+}
+#joinIn{
+    background-image: url(../images/joinIn.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 110px 0px 115px 0px;
+}
+#joinIn{
+    text-align: center;
+}
+#joinIn h1{
+    font-size: 40px;
+    font-family: 'Marta';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#joinIn form{
+    margin-top: 96px;
+}
+
+#joinIn .formField{
+    height: 52px;
+    width: 456px;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+#joinIn .btn-warning{
+    width: 240px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    margin-top: 110px;
+    font-size: 18px;
+    font-family:'OpenSans';
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display:inline-block;
+}
+.yellowLine{
+    width: 130px;
+    height: 5px;
+    background-color: rgb(254, 209, 54);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer{
+    padding: 50px 0px 44px 0px;
+    text-align: center;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .icon-color{
+    background-image:url(../images/sprite.png);
+    width:42px;
+    height: 42px;
+    display: inline-block;
+}
+
+#footer .icon-fb{
+    background-position: -281px -73px;
+}
+#footer .icon-fb:hover{
+    transition: all 3s ease;
+    transform: rotateX(360deg);
+}
+#footer .icon-pinterest{
+    background-position: -323px -73px;
+}
+#footer .icon-pinterest:hover{
+    transition: all 3s ease;
+    transform: rotateY(360deg);
+}
+#footer .icon-googlePlus{
+    background-position: -365px -73px;
+}
+#footer .icon-googlePlus:hover{
+    transition: all 3s ease;
+    transform: rotateY(360deg);
+}
+#footer .icon-twitter{
+    background-position: -408px -73px;
+}
+#footer .icon-twitter:hover{
+    transition: all 3s ease;
+    transform: rotateZ(360deg);
+}
+
+#footer p{
+    float: left;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media only screen and (max-width : 768px) {
+    .col-sm-6 {
+        position: inherit;
+    }
+    .menu-icon {
+        display: inline-block;
+        position: absolute;
+        z-index: 100;
+        top: 45px;
+        right:45px;
+        background-image: url(../images/sprite.png);
+        background-position: 0px -141px;
+        width: 28px;
+        height: 28px;
+    }
+    nav {
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        top: -28px;
+        left: 0px;
+        background-color: black;
+        opacity: 1;
+    }
+    .main-header ul{
+        height: 100vh;
+        padding-top: 60px;
+    }
+    .main-header ul li{
+        display:block;
+        float: none;
+        height: 35px;
+        line-height: 35px;
+    }
+    .main-header ul li a{
+        color:grey;
+        font-weight: 600;
+        font-size: 20px;
+        border-bottom: 2px solid #ffb31a;
+    }
+    .main-header ul li a:hover{
+        color: #ffb31a;
+    }
+    .sliderHolder h1{
+        font-size: 40px;
+    }
+    #joinIn .formField{
+        position: inherit;
+        height: 52px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .col-sm-6 {
+        position: inherit;
+    }
+    .menu-icon {
+        display: inline-block;
+        position: absolute;
+        z-index: 100;
+        top: 45px;
+        right: 45px;
+        background-image: url(../images/sprite.png);
+        background-position: 0px -141px;
+        width: 28px;
+        height: 28px;
+    }
+    nav {
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        top: -30px;
+        left: 0px;
+        background-color: black;
+        opacity: 1;
+    }
+    .main-header ul{
+        height: 100vh;
+        padding: 80px;
+    }
+    .main-header ul li{
+        display:block;
+        float: none;
+        height: 60px;
+        line-height: 60px;
+    }
+    .main-header ul li a{
+        color:grey;
+        font-weight: 600;
+        font-size: 24px;
+        border-bottom: 2px solid #ffb31a;
+    }
+    .main-header ul li a:hover{
+        color: #ffb31a;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .menu-icon{
+        display: none;
+    }
+    .main-header ul li{
+        margin-right: 30px;
+    }
+
+
+}
